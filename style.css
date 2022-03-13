@@ -1,0 +1,262 @@
+/* BODY */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    height: 2199px;
+}
+/* BODY */
+
+/* PROP */
+    .prop1{
+        position: absolute;
+        top: -10%;
+        z-index: -2;
+    }
+
+    .prop2{
+        position: absolute;
+        right: 0%;
+        top: 20%;
+        z-index: -2;
+    }
+
+    .prop3{
+        position: absolute;
+        left: 0%;
+        top: -150px;
+    }
+
+    .prop4{
+        position: absolute;
+        left: 0%;
+        top: -150px;
+        z-index: 4;
+    }
+/* PROP */
+
+/* NAV */
+nav {
+    z-index: 3;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-color: #FAFAFA;
+    box-shadow: 0px 2px 10px rgb(123, 123, 123);
+}
+
+.heading{
+    letter-spacing: 10px;
+    font-size: 48px;
+}
+
+.heading a{
+    text-decoration: none;
+    color: black;
+}
+
+.heading:hover{
+    cursor: pointer;
+}
+
+ul {
+    display: inline;
+}
+
+ul li {
+    display: inline;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 25px;
+}
+
+ul .work{
+    border: solid 3px #3D86FA;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+ul li:hover{
+    background-color: #f0f0f0;
+}
+
+ul .work a {
+    color: #3D86FA;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #5C5C5C;
+}
+/* NAV */
+
+/* HEADER */
+    header{
+        position:relative;
+        z-index: 1;
+        height: 920px;
+        background-color: #FAFAFA;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .text{
+        width: 50%;
+        padding-left: 120px;
+    }
+
+    .text div{
+        padding-bottom: 20px; 
+        font-size: 48px;
+    }
+
+    .text .t1{
+        color: #717171;
+        font-weight: bold;
+    }
+    
+    .text .t2{
+        font-weight: bold;
+    }
+    
+    .text .t2 , .text .t3{
+        color: #000000;
+    }
+    
+    .text .t2 span, .text .t3 span{
+        color: #426BAD;
+    }
+
+    .text .t4{
+        width:80%;
+        font-size: 24px;
+        color: #717171;
+    }
+
+    .text .work2{
+        width: 220px;
+        text-align: center;
+        background-color : #3D86FA; 
+        font-size: 24px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 15px;
+        border-radius: 10px;
+    }
+    
+    .text .work2 a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .text .work2:hover{
+        background-color : #2c68ca;
+        cursor: pointer;
+    }
+    
+    header .img{
+        position: absolute;
+        right: 120px;
+        top: 90px;
+    }
+    header .img img{
+        width:100%;
+    }
+/* HEADER */
+
+/* ARTICLE */
+    article {
+        z-index: 2;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 1024px;
+        background-color: #8DBAFF;
+    }
+
+    article .articleHead{
+        position:absolute;
+        top: 10%;
+        left: 12%;
+        font-size: 96px;
+        font-weight: bold;
+        color: white;
+        letter-spacing: 25px;
+    }
+
+    .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+        height: 546px;
+        background-color: #A9CBFF;
+        border-radius: 20px;
+    }
+    
+    .container .box{
+        width: 30%;
+        height: 413px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: #BED8FF;
+        border-radius: 20px;
+    }
+
+    .container .box:hover{
+        background-color: #9eb5d8;
+    }
+    
+    .container .box p:hover{
+        color: black;
+    }
+
+    .info .header , .food .header , .hobby .header{
+        height: 102px;
+        width: auto;
+        display: flex;
+        align-items: center;
+        padding: 30px;
+        padding-bottom: 10px;
+    }
+
+    .info .header .title , .food .header .title , .hobby .header .title{
+        margin-left: 30px;
+        font-size: 48px;
+        font-weight: bold;
+        letter-spacing: 10px;
+    }
+
+    .info .content p , .food .content p , .hobby .content p{
+        text-align: justify;
+        font-size: 30px;
+        padding: 30px;
+        padding-top: 10px;
+        color: #6D6D6D;
+    }
+    /* ARTICLE */
+
+    /* FOOTER */
+    footer{
+        position: relative;
+        height: 159px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #3B557C;
+        color: #fff;
+    }
+    /* FOOTER */

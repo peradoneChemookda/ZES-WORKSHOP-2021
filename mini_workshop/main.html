@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+<title>easy web</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgb(48, 56, 63);
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 7%;
+  height: 730px; 
+  background: rgb(92, 92, 92);
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 2px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 93%;
+  background-image: url(https://cdn.pixabay.com/photo/2011/08/17/14/38/fire-8837_960_720.jpg);
+  background-size: 100%;
+  height: 730px; 
+  
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 30%;
+}
+ 
+.box{
+    background-color: rgb(112, 112, 112);
+    width: 450px;
+    padding: 10px;
+    margin: 30px;
+    text-align: left;
+   /* border: 2px solid black;*/
+    
+}
+.image{
+    width: 100%;  
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: rgb(116, 117, 118);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+<header>
+  <h1 style=" display: inline-block;">MY IDOL</h1>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Klee</a></li>
+      <li><a href="#">Diona</a></li>
+      <li><a href="#">Qiqi</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <div class="row">
+     <div class="column">
+      <div class="box">           
+              <img class="image" src="picture/chomromkonchophee.jpg" alt="Klee">
+            <h2>chomromkonchophee</h2>
+            <p>"Klee ยังอยากออกไปเล่นอยู่นี่นา...พาหนูออกไปเล่นที..."</p>
+            <p>กองอัศวินแห่งFavonius...อัศวินดอกไม้เพลิง! มักจะปรากฏตัวพร้อมกับประกายไฟและระเบิดเสมอ! ตู้มมมม!!!...จากนั้นก็หายไปอย่างเงียบ ๆเพราะถูกจัยตามองอยู่ ระเบิดใหม่ ๆที่มีมากมายนั้นล้วนเกิดขึ้นมาในช่วงถูกขังเพราะไปเล่นซนมา แฮะ ๆ</p>
+            <a href="#">อ่านข้อมูลเกี่ยวกับ Klee เพิ่มเติม</a>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box">
+              <img class="image" src="picture/pree_kazuya.jpg" alt="Diona">
+            <h2>pree_kazuya</h2>
+            <p>"ฉันคือ Diona บาร์เทนเดอร์แห่งร้าน'Cat's Tail' ขอบอกไว้ก่อนว่าค่าตัวของฉันแพงมากเลยนะ..."</p>
+            <p>บาร์เทนเดอร์แห่งร้าน Cat's Tail ดาวดวงใหม่แห่งวงการเครื่องดื่ม สาวน้อยผู้ที่มีหูแมวและหางแมวที่น่ารัก ตราบใดที่เครื่องดื่มแก้วนั้นถูกปรุงแต่งโดย Diona มันก็จะกลายเป็นเครื่องดื่มรสเลิศที่ไม่อาจจิตนาการได้เสมอ</p>
+            <a href="#">อ่านข้อมูลเกี่ยวกับ Diona เพิ่มเติม</a>
+        </div>
+      </div>
+      <div class="column">
+        <div class="box">
+            <img class="image" src="picture/pree_larm.jpg" alt="Qiqi">
+          <h2>pree_larm</h2>
+          <p>"ฉันชื่อ Qiqi ฉันเป็นซอมบี้ อา... ต้องพูดว่าอะไรต่อนะ"</p>
+          <p>คนเก็บสมุนไพรที่ได้รับพร 'พรแห่งเซียน' ทำให้มีร่างกายเป็นอมตะ ความจำของQiqiแย่มาก เพื่อความราบรื่นในการดำรงชีวิต เธอจะพกสมุดบันทึกเล่มหนึ่งติดตัวไว้ตลอดเวลา ข้างในจะเขียนข้อควรระวังเอาไว้ แต่วันที่โชคไม่เข้าข้าง เธอจะลืมแม้กระทั่งอ่านสมุดบันทึก</p>
+          <a href="#">อ่านข้อมูลเกี่ยวกับ Qiqi เพิ่มเติม</a>
+        </div>
+      </div>  
+    </div>
+    
+        
+  </article>
+</section>
+
+<footer>
+  <p>From Mon Sudlor</p>
+</footer>
+
+</body>
+</html>
